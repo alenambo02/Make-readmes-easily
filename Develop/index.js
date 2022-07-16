@@ -24,6 +24,24 @@ inquirer
         message: 'What are the installation instructions for the project?',
         name: 'instructions',
     },
+    
+    {
+        type: 'input',
+        message: 'Provided instructions and examples for use?',
+        name: 'usage',
+    },
+    {
+        type: 'input',
+        message: 'Add credits and contributors?',
+        name: 'credits',
+
+    },
+    {
+        type: 'choice',
+        message: 'What license did you use?',
+        choice: '[MIT, GNU, BSD, DL]'
+
+    }
   
     ])
  
