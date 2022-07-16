@@ -1,25 +1,25 @@
 # aq 
 
-  #Table of Content
+  # Table of Content
   -[description](##description)
   -[instructions](##instructions)
   -[usage](##usage)
   -[credits](##credits)
   -[license](##license)
 
-  ##description:
+  ## description:
   aq
 
-  ##instructions:
+  ## instructions:
   aq
 
-  ##usage:
+  ## usage:
   aq
  
-  ##credits:
+  ## credits:
   aq
  
-  ##license:
+  ## license:
   MIT
  
   
