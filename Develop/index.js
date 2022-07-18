@@ -19,7 +19,7 @@ const questions = [
     {
         type: 'input',
         message: 'What are the installation instructions for the project?',
-        name: 'instructions',
+        name: 'installation',
     },
     
     {
@@ -41,8 +41,24 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Add you contact information?',
-        name: 'contact',
+        message: 'What kind of test did you create?',
+        name: 'tests',
+
+    },
+    {
+        type: 'input',
+        message: 'Add is your contact information?',
+        name: 'phone',
+    },
+    {
+        type: 'input',
+        message: 'Add you github information?',
+        name: 'github',
+    },
+    {
+        type: 'input',
+        message: 'Add you email information?',
+        name: 'email',
     },
   
     ];

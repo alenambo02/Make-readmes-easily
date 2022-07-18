@@ -38,17 +38,18 @@ function generateMarkdown(data) {
 
   #Table of Content
   -[description](#description)
-  -[instructions](#instructions)
+  -[installation](#installation)
   -[usage](#usage)
   -[credits](#credits)
   -[license](#license)
-  -[contact](#contact)
+  -[tests](#tests)
+  -[questions](#questions)
 
   ## description:
   ${data.description}
 
-  ## instructions:
-  ${data.instructions}
+  ## installation:
+  ${data.installation}
 
   ## usage:
   ${data.usage}
@@ -59,8 +60,14 @@ function generateMarkdown(data) {
   ## license:
   ${data.license}
 
-  ## contact:
-  ${data.contact}
+  ## tests:
+  ${data.tests}
+
+  ## questions:
+  ${data.phone}
+  ${data.github}
+  ${data.email}
+ 
  
   `;
 }

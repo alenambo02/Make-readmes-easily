@@ -3,12 +3,12 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   #Table of Content
-  -[description](#description)
-  -[instructions](#instructions)
-  -[usage](#usage)
-  -[credits](#credits)
-  -[license](#license)
-  -[contact](#contact)
+  -[description](#Description)
+  -[installation](#Installation)
+  -[instructions/usage](#Instructions/usage)
+  -[credits](#Credits)
+  -[license](#License)
+  -[contact](#Contact)
 
   ## Description:
   The purpose behind this project was to create a generator for README's. That way developing README's can be done with ease. Also now I can be prompted with everything I need in my read me, so I do not forget to include anything. 
