@@ -34,36 +34,36 @@ function renderLicenseBadge(license) {
 function generateMarkdown(data) { 
   return `# ${data.title} 
   
-  ${renderLicenseBadge(data.license)}
+  License used for this repository: ${renderLicenseBadge(data.license)}
 
   #Table of Content
-  -[description](#description)
-  -[installation](#installation)
-  -[usage](#usage)
-  -[credits](#credits)
-  -[license](#license)
-  -[tests](#tests)
-  -[questions](#questions)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-  ## description:
+  ## Description:
   ${data.description}
 
-  ## installation:
+  ## Installation:
   ${data.installation}
 
-  ## usage:
+  ## Usage:
   ${data.usage}
  
-  ## credits:
+  ## Credits:
   ${data.credits}
  
-  ## license:
+  ## License:
   ${data.license}
 
-  ## tests:
+  ## Tests:
   ${data.tests}
 
-  ## questions:
+  ## Questions:
   ${data.phone}
   ${data.github}
   ${data.email}

@@ -5,7 +5,7 @@
   #Table of Content
   -[description](#Description)
   -[installation](#Installation)
-  -[instructions/usage](#Instructions/usage)
+  -[usage](#Usage)
   -[credits](#Credits)
   -[license](#License)
   -[contact](#Contact)
@@ -16,7 +16,7 @@
   ## Installation:
   In order to be able to utilize this generator within your command line, you would have to install node.js and also npm inquirer package. Npm inquirer package allows for prompts to be displayed to you within the command line. 
 
-  ## Instructions/usage:
+  ## Usage:
   You will be prompted with questions inside the command line that cover the material that should be included in your README. You can either answer the question or leave it blank to move on to the next question. Your answers to the questions will then be generated below the correct section of your README. You can naviagte to the section you would like by hovering over it in the Table of Contents and clicking the link. This will simply move you the the designated area you choose to be in. Now you can either use this to generate your entire README or have it set up some base for you so you can modify it later if you like. 
 
   ## Credits:
