@@ -1,4 +1,4 @@
-# Puppies are so cute! 
+# Puppies  
   
   License badge: [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -12,13 +12,13 @@
   - [License](#license)
 
   ## Description:
-  We will be dicussing why pups are adorable!
+  Puppies are cute.
 
   ## Installation:
-  Get you a puppy.
+  Get yourself a puppy.
 
   ## Usage:
-  At your local shelter!
+  Adopt a puppy at your local shelter.
  
   ## Credits:
   None at the moment.
@@ -30,7 +30,7 @@
   If you have any questions about this project, feel free to reach me at any of the following:
   1-800-ilovepuppies
   puppies@github.com
-  puppiesarecute@gmail.com
+  puppies@gmail.com
 
    ## License: 
   Licensed used for this repository: Apache 
