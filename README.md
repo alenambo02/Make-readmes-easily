@@ -15,7 +15,7 @@
 
   You can see this project in action below:
 
-  ![alt text](./assets/gif.gif)
+  ![gif gif](./assets/gif.gif)
 
 
   ## Installation:
