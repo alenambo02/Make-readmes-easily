@@ -1,38 +1,39 @@
-# a 
+# Puppies are so cute! 
   
-  License used for this repository: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  License badge: [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   #Table of Content
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
-  - [License](#license)
   - [Tests](#tests)
   - [Questions](#questions)
+  - [License](#license)
 
   ## Description:
-  s
+  We will be dicussing why pups are adorable!
 
   ## Installation:
-  a
+  Get you a puppy.
 
   ## Usage:
-  s
+  At your local shelter!
  
   ## Credits:
-  w
- 
-  ## License:
-  MIT
+  None at the moment.
 
   ## Tests:
-  d
+  None.
 
   ## Questions:
-  a
-  s
-  s
+  If you have any questions about this project, feel free to reach me at any of the following:
+  1-800-ilovepuppies
+  puppies@github.com
+  puppiesarecute@gmail.com
+
+   ## License: 
+  Licensed used for this repository: Apache 
  
  
   
