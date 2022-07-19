@@ -1,8 +1,7 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// this function returns the badge that is associated with the license
 function renderLicenseBadge(license) {
   let licenseChosen = ''
-
+//badges img and link
   if(license === 'MIT') {
     licenseChosen = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)` 
   } 
@@ -19,11 +18,10 @@ function renderLicenseBadge(license) {
     licenseChosen = `[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)`
   }
   return(licenseChosen)
-    
+ 
 };
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// this function returns license link 
 function renderLicenseLink(license) {
   if (license !== 'none') {
     return '- [License](#license)'
@@ -31,8 +29,7 @@ function renderLicenseLink(license) {
 
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// this function return license section in readme when called on
 function renderLicenseSection(license) {
   if (license == 'none'){
     return ''
@@ -41,11 +38,12 @@ function renderLicenseSection(license) {
   Licensed used for this repository: ${license} `
 }
 
-// TODO: Create a function to generate markdown for README
+// this function generates markdown for README
+// each section retrieves the data for that section
 function generateMarkdown(data) { 
   return `# ${data.title} 
   
-  License badge: ${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(data.license)}
 
   #Table of Content
   - [Description](#description)
@@ -82,5 +80,5 @@ function generateMarkdown(data) {
  
   `;
 }
-
+// allows other files to utilize its content
 module.exports = generateMarkdown;

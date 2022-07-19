@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Grabbing the packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 
-// TODO: Create an array of questions for user input
+// This is an array of questions that is displayed to the user for their input
 const questions = [
     {
         type: 'input',
@@ -37,7 +37,7 @@ const questions = [
         type: 'list',
         message: 'What license did you use?',
         name: 'license',
-        choices: ['MIT', 'BSD-3', 'WTFPL', 'Apache'],
+        choices: ['MIT', 'BSD-3', 'WTFPL', 'Apache', 'none'],
     },
     {
         type: 'input',
@@ -64,12 +64,12 @@ const questions = [
     ];
 
 
-// TODO: Create a function to write README file
+// This function is used to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data), (err) => err ? console.log(err):console.log("SUCCESS!"))
 }
 
-// TODO: Create a function to initialize app
+// This function is used to initialize app
 function init() {
     inquirer 
     .prompt(questions)
@@ -85,5 +85,5 @@ function init() {
     );
 }
 
-// Function call to initialize app
+// Function called to initialize app
 init();

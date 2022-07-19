@@ -1,6 +1,6 @@
-# Puppies  
+# Puppies 
   
-  License badge: [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   #Table of Content
   - [Description](#description)
@@ -12,13 +12,13 @@
   - [License](#license)
 
   ## Description:
-  Puppies are cute.
+  We will be talking about why you should get a puppy.
 
   ## Installation:
-  Get yourself a puppy.
+  Go get you a puppy.
 
   ## Usage:
-  Adopt a puppy at your local shelter.
+  Go to your local shelter and adopt one.
  
   ## Credits:
   None at the moment.
@@ -29,11 +29,11 @@
   ## Questions:
   If you have any questions about this project, feel free to reach me at any of the following:
   1-800-ilovepuppies
-  puppies@github.com
-  puppies@gmail.com
+  pups@github.com
+  pupsarecute@gmail.com
 
    ## License: 
-  Licensed used for this repository: Apache 
+  Licensed used for this repository: MIT 
  
  
   
